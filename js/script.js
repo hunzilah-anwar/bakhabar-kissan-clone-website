@@ -8,7 +8,7 @@ const startBtn = document.getElementById("startChatBtn");
 const chatWindow = document.getElementById("chatWindow");
 const closeBtn = document.getElementById("closeChatBtn");
 
-const API_KEY = "AIzaSyA0p0L-Nqyqvf7zXF1PEUtaqxInAgi2aaI";
+const API_KEY = PASTE YOUR API KEY HERE;
 const ENDPOINT = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${API_KEY}`;
 const input = document.getElementById("input");
 const output = document.getElementById("output");
