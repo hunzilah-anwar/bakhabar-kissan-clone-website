@@ -1,0 +1,309 @@
+[
+  [
+    {
+      "id": "1",
+      "name": "GLOW IN THE DARK Pebbles for Garden & Pots - 100pcs - Blue",
+      "image": "./src/images/p1.jpeg",
+      "price": "Rs.2,500",
+      "discountPrice": "Rs.1,700",
+      "saleSoldout": "Sale",
+      "height": "h-[300px]"
+    },
+    {
+      "id": "2",
+      "name": "GLOW IN THE DARK Pebbles for Garden & Pots - 100pcs - Green",
+      "image": "./src/images/p2.png",
+      "price": "Rs.2,500",
+      "discountPrice": "Rs.1,700",
+      "saleSoldout": "Sale",
+      "height": "h-[300px]"
+    },
+    {
+      "id": "3",
+      "name": "Organic Vermi Compost Fertilizer - 5KG",
+      "image": "./src/images/p3.jpeg",
+      "price": "Rs.2,000",
+      "discountPrice": "Rs.500",
+      "saleSoldout": "Sale",
+      "height": "h-[300px]"
+    },
+    {
+      "id": "4",
+      "name": "4pcs Self-Watering Planters - Plastic Bamboo - Multi colored",
+      "image": "./src/images/p4.png",
+      "price": "Rs.3,100",
+      "discountPrice": "Rs.3,000",
+      "saleSoldout": "Sale",
+      "height": "h-[300px]"
+    },
+    {
+      "id": "5",
+      "name": "2pcs Modern Mini Plastic Planters",
+      "image": "./src/images/k5.jpeg",
+      "price": "Rs.1,500",
+      "discountPrice": "Rs.1,300",
+      "saleSoldout": "Sale",
+      "height": "h-[300px]"
+    },
+    {
+      "id": "6",
+      "name": "Wall-Mounted Garden Grow Bags - 9 pockets",
+      "image": "./src/images/k6.png",
+      "price": "No Discount",
+      "discountPrice": "Rs.2,000",
+      "saleSoldout": "Sale",
+      "height": "h-[300px]"
+    },
+    {
+      "id": "7",
+      "name": "Organic Vermi Compost Fertilizer - 3KG",
+      "image": "./src/images/k7.png",
+      "price": "Rs.1,200",
+      "discountPrice": "Rs.300",
+      "saleSoldout": "Sale",
+      "height": "h-[300px]"
+    },
+    {
+      "id": "8",
+      "name": "GLOW IN THE DARK Pebbles for Garden & Pots - 100pcs - Purple",
+      "image": "./src/images/k8.png",
+      "price": "Rs.2,500",
+      "discountPrice": "Rs.1,700",
+      "saleSoldout": "Sale",
+      "height": "h-[300px]"
+    }
+  ],
+  [
+    {
+      "id": "1",
+      "name": "Cauliflower F1 Hybrid Seeds",
+      "image": "./src/images/kk1.jpeg",
+      "price": "No Discount",
+      "discountPrice": "Rs.140",
+      "saleSoldout": "Sold Out",
+      "height": "h-[300px]"
+    },
+    {
+      "id": "2",
+      "name": "Red Radish F1 Hybrid Seeds",
+      "image": "./src/images/kk2.jpeg",
+      "price": "No Discount",
+      "discountPrice": "Rs.140",
+      "saleSoldout": "Sold Out",
+      "height": "h-[300px]"
+    },
+    {
+      "id": "3",
+      "name": "Raddish F1 Hybrid Seeds",
+      "image": "./src/images/kk3.jpg",
+      "price": "No Discount",
+      "discountPrice": "Rs.140",
+      "saleSoldout": "Sold Out",
+      "height": "h-[300px]"
+    },
+    {
+      "id": "4",
+      "name": "Red Cabbage F1 Hybrid Seeds",
+      "image": "./src/images/kk4.jpg",
+      "price": "No Discount",
+      "discountPrice": "Rs.140",
+      "saleSoldout": "Sold Out",
+      "height": "h-[300px]"
+    },
+    {
+      "id": "5",
+      "name": "Chinese Cabbage F1 Hybrid Seeds",
+      "image": "./src/images/kk5.jpeg",
+      "price": "No Discount",
+      "discountPrice": "Rs.140",
+      "saleSoldout": "Sold Out",
+      "height": "h-[300px]"
+    },
+    {
+      "id": "6",
+      "name": "Cabbage F1 Hybrid Seeds",
+      "image": "./src/images/kk6.jpeg",
+      "price": "No Discount",
+      "discountPrice": "Rs.140",
+      "saleSoldout": "Sold Out",
+      "height": "h-[300px]"
+    },
+    {
+      "id": "7",
+      "name": "Lettuce Iceberg F1 Hybrid Seeds",
+      "image": "./src/images/kk7.jpg",
+      "price": "No Discount",
+      "discountPrice": "Rs.140",
+      "saleSoldout": "Sold Out",
+      "height": "h-[300px]"
+    },
+    {
+      "id": "8",
+      "name": "Methi F1 Hybrid Seeds",
+      "image": "./src/images/kk8.jpg",
+      "price": "No Discount",
+      "discountPrice": "Rs.140",
+      "saleSoldout": "Sold Out",
+      "height": "h-[300px]"
+    }
+  ],
+  [
+    {
+      "id": "1",
+      "name": "Stainless Steel Solar Lights Set - Warm Yellow - 10 lights",
+      "image": "./src/images/ld1.jpeg",
+      "price": "Rs.8,500",
+      "discountPrice": "Rs.8,000",
+      "saleSoldout": "Sale",
+      "height": "h-[300px]"
+    },
+    {
+      "id": "2",
+      "name": "Automatic Solar Pathway Garden Lights - 6 pieces",
+      "image": "./src/images/ld2.jpeg",
+      "price": "Rs.14,000",
+      "discountPrice": "Rs.13,000",
+      "saleSoldout": "Sale",
+      "height": "h-[300px]"
+    },
+    {
+      "id": "3",
+      "name": "Automatic Solar Flame Light - 6pcs",
+      "image": "./src/images/ld3.jpeg",
+      "price": "Rs.11,000",
+      "discountPrice": "Rs.10,000",
+      "saleSoldout": "Sale",
+      "height": "h-[300px]"
+    },
+    {
+      "id": "4",
+      "name": "GLOW IN THE DARK Pebbles for Garden & Pots - 100pcs - White",
+      "image": "./src/images/ld4.png",
+      "price": "Rs.2,500",
+      "discountPrice": "Rs.1,700",
+      "saleSoldout": "Sale",
+      "height": "h-[300px]"
+    },
+    {
+      "id": "5",
+      "name": "GLOW IN THE DARK Pebbles for Garden & Pots - 100pcs - Yellow",
+      "image": "./src/images/ld5.png",
+      "price": "Rs.2,500",
+      "discountPrice": "Rs.1,700",
+      "saleSoldout": "Sale",
+      "height": "h-[300px]"
+    },
+    {
+      "id": "6",
+      "name": "GLOW IN THE DARK Pebbles for Garden & Pots - 100pcs -Multicolor",
+      "image": "./src/images/ld6.png",
+      "price": "Rs.2,500",
+      "discountPrice": "Rs.1,700",
+      "saleSoldout": "Sale",
+      "height": "h-[300px]"
+    },
+    {
+      "id": "7",
+      "name": "GLOW IN THE DARK Pebbles for Garden & Pots - 100pcs - Green",
+      "image": "./src/images/ld7.png",
+      "price": "Rs.2,500",
+      "discountPrice": "Rs.1,700",
+      "saleSoldout": "Sale",
+      "height": "h-[300px]"
+    },
+    {
+      "id": "8",
+      "name": "Vine LED Fairy Lights",
+      "image": "./src/images/ld8.png",
+      "price": "Rs.1,250",
+      "discountPrice": "Rs.1,200",
+      "saleSoldout": "Sale",
+      "height": "h-[300px]"
+    }
+  ],
+  [
+    {
+      "id": "1",
+      "name": "Taste Enhancer - 300ml",
+      "image": "./src/images/mn1.png",
+      "price": "No Discount",
+      "discountPrice": "Rs.500",
+      "saleSoldout": "Sale",
+      "height": "h-[300px]"
+    },
+    {
+      "id": "2",
+      "name": "Yield Booster - 300ml",
+      "image": "./src/images/mn1.png",
+      "price": "No Discount",
+      "discountPrice": "Rs.500",
+      "saleSoldout": "Sale",
+      "height": "h-[300px]"
+    },
+    {
+      "id": "3",
+      "name": "Bloom & Fruit Max - 300ml",
+      "image": "./src/images/mn1.png",
+      "price": "No Discount",
+      "discountPrice": "Rs.500",
+      "saleSoldout": "Sale",
+      "height": "h-[300px]"
+    },
+    {
+      "id": "4",
+      "name": "Plant Protector - 300ml",
+      "image": "./src/images/mn1.png",
+      "price": "No Discount",
+      "discountPrice": "Rs.500",
+      "saleSoldout": "Sale",
+      "height": "h-[300px]"
+    }
+  ],
+  [
+    {
+      "id": "1",
+      "name": "Sarsabz Urea - 50KG",
+      "image": "./src/images/fp1.png",
+      "price": "Rs.4,900",
+      "discountPrice": "Rs.4,400",
+      "saleSoldout": "Sale",
+      "height": "h-[500px]"
+    },
+    {
+      "id": "2",
+      "name": "Sona Urea - 50KG",
+      "image": "./src/images/fp2.jpeg",
+      "price": "Rs.4,400",
+      "discountPrice": "Rs.4,300",
+      "saleSoldout": "Sale",
+      "height": "h-[500px]"
+    },
+    {
+      "id": "3",
+      "name": "Bubber Sher Urea - 50KG",
+      "image": "./src/images/fp3.png",
+      "price": "Rs.4,600",
+      "discountPrice": "Rs.4,500",
+      "saleSoldout": "Sale",
+      "height": "h-[500px]"
+    },
+    {
+      "id": "4",
+      "name": "DAP FFC - 50KG",
+      "image": "./src/images/fp4.jpeg",
+      "price": "Rs.12,400",
+      "discountPrice": "Rs.12,200",
+      "saleSoldout": "Sale",
+      "height": "h-[500px]"
+    },
+    {
+      "id": "5",
+      "name": "Green Sulfur 70% 20KG",
+      "image": "./src/images/fp5.png",
+      "price": "Rs.13,500",
+      "discountPrice": "Rs.11,000",
+      "saleSoldout": "Sale",
+      "height": "h-[500px]"
+    }
+  ]
+]

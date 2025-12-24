@@ -1,0 +1,150 @@
+[
+  [
+    {
+      "id": "1",
+      "name": "GLOW IN THE DARK Pebbles for Garden & Pots - 100pcs - Blue",
+      "image": "./src/images/k1.png",
+      "price": "Rs.2,500",
+      "discountPrice": "Rs.1,700",
+      "saleSoldout": "Sale"
+    },
+    {
+      "id": "2",
+      "name": "GLOW IN THE DARK Pebbles for Garden & Pots - 100pcs - Green",
+      "image": "./src/images/k2.png",
+      "price": "Rs.2,500",
+      "discountPrice": "Rs.1,700",
+      "saleSoldout": "Sale"
+    },
+    {
+      "id": "3",
+      "name": "Organic Vermi Compost Fertilizer - 5KG",
+      "image": "./src/images/k3.png",
+      "price": "Rs.2,000",
+      "discountPrice": "Rs.500",
+      "saleSoldout": "Sale"
+    },
+    {
+      "id": "4",
+      "name": "4pcs Self-Watering Planters - Plastic Bamboo - Multi colored",
+      "image": "./src/images/k4.png",
+      "price": "Rs.3,100",
+      "discountPrice": "Rs.3,000",
+      "saleSoldout": "Sale"
+    },
+    {
+      "id": "5",
+      "name": "2pcs Modern Mini Plastic Planters",
+      "image": "./src/images/k5.jpeg",
+      "price": "Rs.1,500",
+      "discountPrice": "Rs.1,300",
+      "saleSoldout": "Sale"
+    },
+    {
+      "id": "6",
+      "name": "Wall-Mounted Garden Grow Bags - 9 pockets",
+      "image": "./src/images/k6.png",
+      "price": "No Discount",
+      "discountPrice": "Rs.2,000",
+      "saleSoldout": "Sale"
+    },
+    {
+      "id": "7",
+      "name": "Organic Vermi Compost Fertilizer - 3KG",
+      "image": "./src/images/k7.png",
+      "price": "Rs.1,200",
+      "discountPrice": "Rs.300",
+      "saleSoldout": "Sale"
+    },
+    {
+      "id": "8",
+      "name": "GLOW IN THE DARK Pebbles for Garden & Pots - 100pcs - Purple",
+      "image": "./src/images/k8.png",
+      "price": "Rs.2,500",
+      "discountPrice": "Rs.1,700",
+      "saleSoldout": "Sale"
+    },
+    {
+      "id": "9",
+      "name": "Seed Starter Pods - 10pcs peat pellets",
+      "image": "./src/images/k9.jpeg",
+      "price": "No Discount",
+      "discountPrice": "Rs.1,000",
+      "saleSoldout": "Sale"
+    },
+    {
+      "id": "10",
+      "name": "3pcs Self-Watering Planters - White colored",
+      "image": "./src/images/k10.png",
+      "price": "Rs.2,500",
+      "discountPrice": "Rs.2,100",
+      "saleSoldout": "Sale"
+    }
+  ],
+  [
+    {
+      "id": "1",
+      "name": "Cauliflower F1 Hybrid Seeds",
+      "image": "./src/images/kk1.jpeg",
+      "price": "No Discount",
+      "discountPrice": "Rs.140",
+      "saleSoldout": "Sale"
+    },
+    {
+      "id": "2",
+      "name": "Red Radish F1 Hybrid Seeds",
+      "image": "./src/images/kk2.jpeg",
+      "price": "No Discount",
+      "discountPrice": "Rs.140",
+      "saleSoldout": "Sale"
+    },
+    {
+      "id": "3",
+      "name": "Raddish F1 Hybrid Seeds",
+      "image": "./src/images/kk3.jpg",
+      "price": "No Discount",
+      "discountPrice": "Rs.140",
+      "saleSoldout": "Sale"
+    },
+    {
+      "id": "4",
+      "name": "Red Cabbage F1 Hybrid Seeds",
+      "image": "./src/images/kk4.jpg",
+      "price": "No Discount",
+      "discountPrice": "Rs.140",
+      "saleSoldout": "Sale"
+    },
+    {
+      "id": "5",
+      "name": "Chinese Cabbage F1 Hybrid Seeds",
+      "image": "./src/images/kk5.jpeg",
+      "price": "No Discount",
+      "discountPrice": "Rs.140",
+      "saleSoldout": "Sale"
+    },
+    {
+      "id": "6",
+      "name": "Cabbage F1 Hybrid Seeds",
+      "image": "./src/images/kk6.jpeg",
+      "price": "No Discount",
+      "discountPrice": "Rs.140",
+      "saleSoldout": "Sale"
+    },
+    {
+      "id": "7",
+      "name": "Lettuce Iceberg F1 Hybrid Seeds",
+      "image": "./src/images/kk7.jpg",
+      "price": "No Discount",
+      "discountPrice": "Rs.140",
+      "saleSoldout": "Sale"
+    },
+    {
+      "id": "8",
+      "name": "Methi F1 Hybrid Seeds",
+      "image": "./src/images/kk8.jpg",
+      "price": "No Discount",
+      "discountPrice": "Rs.140",
+      "saleSoldout": "Sale"
+    }
+  ]
+]

@@ -1,0 +1,295 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="shortcut icon" href="./src/images/BKK_Logo.png" type="image/x-icon"> -->
+    <title>BaKhabar Kissan - Buy Online Agricultural Products in Pakistan – Bakhabar Kissan</title>
+    <link href="./output.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body class="bg-[#FCFCFC]">
+    <!-- Header -->
+    <header class="w-full border-b-2 border-[#e1e1e1] bg-[#FCFCFC]">
+        <nav class="flex items-center justify-between py-[20px] px-[20px] xl:px-[50px] text-[#020912bf] relative">
+            <!-- Hamburger (Mobile) -->
+            <button id="menuBtn" class="xl:hidden text-2xl cursor-pointer text-gray-700">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+            <!-- Logo -->
+            <div>
+                <a href="index.html">
+                    <img src="./src/images/BKK_Logo.png" alt="BaKhabar Kissan" class="w-32 sm:w-40" />
+                </a>
+            </div>
+
+            <!-- Navigation Links -->
+            <ul id="navLinks"
+                class="hidden xl:flex items-center justify-start xl:gap-6 flex-wrap flex-col xl:flex-row text-sm max-w-[800px] absolute xl:static top-full left-0 w-full xl:w-auto bg-[#FCFCFC] xl:bg-transparent shadow-md xl:shadow-none xl:p-0 z-20">
+                <li class="hover:bg-gray-200 xl:bg-none w-full xl:w-fit p-2 xl:p-0"><a href="#" class="block py-2 xl:py-0">Home</a></li>
+                <li class="hover:bg-gray-200 xl:bg-none w-full xl:w-fit p-2 xl:p-0"><a href="#Kitchen-section" class="block py-2 xl:py-0">Kitchen
+                        Gardening</a></li>
+                <li class="hover:bg-gray-200 xl:bg-none w-full xl:w-fit p-2 xl:p-0"><a href="#Pots-Planters" class="block py-2 xl:py-0">Pots & Planters</a></li>
+                <li class="hover:bg-gray-200 xl:bg-none w-full xl:w-fit p-2 xl:p-0"><a href="#Decor-Lighting" class="block py-2 xl:py-0">Decor & Lighting</a></li>
+                <li class="hover:bg-gray-200 xl:bg-none w-full xl:w-fit p-2 xl:p-0"><a href="#Micro-Nutrients" class="block py-2 xl:py-0">Micro Nutrients</a></li>
+                <li class="hover:bg-gray-200 xl:bg-none w-full xl:w-fit p-2 xl:p-0"><a href="#Seeds-Kitchen-Garden" class="block py-2 xl:py-0">Seeds - Kitchen Garden</a>
+                </li>
+                <li class="hover:bg-gray-200 xl:bg-none w-full xl:w-fit p-2 xl:p-0"><a href="#Flower-Tree-Seeds" class="block py-2 xl:py-0">Flower & Tree Seeds</a>
+                </li>
+                <li class="hover:bg-gray-200 xl:bg-none w-full xl:w-fit p-2 xl:p-0"><a href="#Fertilizers" class="block py-2 xl:py-0">Fertilizers</a></li>
+                <li class="hover:bg-gray-200 xl:bg-none w-full xl:w-fit p-2 xl:p-0"><a href="#Livestock-Supplies" class="block py-2 xl:py-0">Livestock Supplies</a>
+                </li>
+                <li class="hover:bg-gray-200 xl:bg-none w-full xl:w-fit p-2 xl:p-0"><a href="#Livestock-Vaccines" class="block py-2 xl:py-0">Livestock Vaccines</a>
+                </li>
+                <li class="hover:bg-gray-200 xl:bg-none w-full xl:w-fit p-2 xl:p-0"><a href="#Sale" class="block py-2 xl:py-0">Sale</a></li>
+                <li class="hover:bg-gray-200 xl:bg-none w-full xl:w-fit p-2 xl:p-0"><a href="#All-Products" class="block py-2 xl:py-0">All Products</a></li>
+                <li class="hover:bg-gray-200 xl:bg-none w-full xl:w-fit p-2 xl:p-0"><a href="#" class="xl:hidden block py-2 xl:py-0">login <i
+                            class="fa-solid fa-cart-shopping"></i></a></li>
+            </ul>
+
+            <!-- Right Icons + Language -->
+            <div class="flex items-center gap-4">
+                <!-- Language Dropdown -->
+                <div class="hidden xl:block relative text-sm">
+                    <button id="langBtn" class="flex items-center gap-2 px-4 py-2 group transition-all cursor-pointer">
+                        <span id="selectedLang" class="group-hover:underline underline-offset-4">English</span>
+                        <i class="fa-solid fa-chevron-down text-gray-500 text-xs"></i>
+                    </button>
+
+                    <div id="langDropdown"
+                        class="absolute right-0 mt-2 w-40 bg-white rounded-lg shadow-lg hidden z-10 border border-gray-200">
+                        <ul class="py-1 text-gray-700">
+                            <li>
+                                <button class="w-full text-left px-4 py-2 hover:bg-gray-100"
+                                    onclick="changeLanguage('English')">
+                                    English
+                                </button>
+                            </li>
+                            <li>
+                                <button class="w-full text-left px-4 py-2 hover:bg-gray-100"
+                                    onclick="changeLanguage('اردو')">
+                                    اردو
+                                </button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Icons -->
+                <div class="flex items-center gap-4 text-xl">
+                    <button class="hover:scale-110 transition"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    <button class="hover:scale-110 transition"><i class="fa-solid fa-user"></i></button>
+                    <button class="hover:scale-110 transition relative"><i
+                            class="fa-solid fa-cart-shopping"></i></button>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Tagline -->
+        <div class="text-center py-2 text-[16.25px] font-[600] mt-4 mb-2 text-[#020912bf]">
+            <p>Delivering Garden Seeds & Tools Nationwide</p>
+        </div>
+    </header>
+    <!-- Main -->
+    <main>
+        <!-- Chatbot -->
+        <section class="fixed bottom-4 left-4 z-50">
+            <!-- Start Button -->
+            <button id="startChatBtn"
+                class="bg-green-600 text-white cursor-pointer px-4 py-2 rounded-full shadow-lg hover:bg-green-700 transition">
+                Start Chat 🙋‍♂️
+            </button>
+
+            <!-- Chat Window -->
+            <div id="chatWindow" class="hidden w-80 h-96 bg-white rounded-xl shadow-2xl flex-col overflow-hidden">
+
+                <!-- Header -->
+                <div class="bg-green-600 text-white px-4 py-3 flex justify-between items-center">
+                    <h2 class="text-lg font-semibold">BaKhabar Kissan Assistant</h2>
+                    <button id="closeChatBtn" class="text-white cursor-pointer hover:text-gray-200">✖</button>
+                </div>
+
+                <!-- Chat Messages -->
+                <div id="output" class="h-[270px] flex-1 overflow-y-auto p-3 space-y-2 text-sm bg-gray-50"></div>
+
+                <!-- Input Area -->
+                <div class="p-2 border-t border-gray-400 flex gap-2">
+                    <input id="input" type="text" placeholder="Type message..."
+                        class="flex-1 px-3 py-2 border rounded-lg focus:outline-none focus:ring focus:ring-green-300" />
+                    <button id="sendBtn"
+                        class="bg-green-600 text-white px-3 cursor-pointer rounded-lg hover:bg-green-700 transition">
+                        Send
+                    </button>
+                </div>
+            </div>
+        </section>
+        <!-- Kitchen Section -->
+        <section class="px-[50px] py-[36px]" id="Kitchen-section">
+            <!-- 1️⃣ Grid Section (1st Array) -->
+            <div>
+                <h1 class="text-[30px] font-[700] text-black mb-6">
+                    Tools for Home & Kitchen Gardens
+                </h1>
+                <div class="flex items-start justify-start gap-4 flex-wrap" id="Kitchen-cards-1"></div>
+            </div>
+
+            <!-- 2️⃣ Slider Section (2nd Array) -->
+            <div class="mt-14 relative">
+                <h1 class="text-[30px] font-[700] text-black mb-6">
+                    Other Kitchen Items
+                </h1>
+
+                <!-- Slider Wrapper -->
+                <div class="relative overflow-hidden group">
+                    <!-- Track -->
+                    <div id="Kitchen-slider" class="flex gap-4 transition-transform duration-500 ease-in-out"></div>
+                </div>
+
+                <!-- Slider Controls -->
+                <div class="flex items-center justify-center gap-3 mt-5 text-sm text-gray-500">
+                    <button id="prevBtn" class="text-gray-500 w-8 h-8 cursor-pointer">
+                        &lt;
+                    </button>
+
+                    <span id="sliderCounter">1 / 1</span>
+
+                    <button id="nextBtn" class="text-gray-500 w-8 h-8 cursor-pointer">
+                        &gt;
+                    </button>
+                </div>
+            </div>
+        </section>
+        <!-- Planters Section -->
+        <section class="px-[50px] py-[36px]" id="Planters-section">
+            <!-- 🪴 1️⃣ First Slider -->
+            <div class="mt-6 relative" id="Pots-Planters">
+                <h1 class="text-[30px] font-[700] text-black mb-6">
+                    Indoor and Outdoor Planters
+                </h1>
+
+                <div class="relative overflow-hidden group">
+                    <div id="Planters-slider-1" class="flex gap-4 transition-transform duration-500 ease-in-out"></div>
+                </div>
+
+                <div class="flex items-center justify-center gap-3 mt-5 text-sm text-gray-500">
+                    <button id="prevPlanterBtn1" class="text-gray-500 w-8 h-8 cursor-pointer">&lt;</button>
+                    <span id="planterCounter1">1 / 1</span>
+                    <button id="nextPlanterBtn1" class="text-gray-500 w-8 h-8 cursor-pointer">&gt;</button>
+                </div>
+            </div>
+
+            <!-- 🪴 2️⃣ Second Slider -->
+            <div class="mt-16 relative">
+                <h1 class="text-[30px] font-[700] text-black mb-6">
+                    Tree and Flower Seeds for Gardens
+                </h1>
+
+                <div class="relative overflow-hidden group">
+                    <div id="Planters-slider-2" class="flex gap-4 transition-transform duration-500 ease-in-out"></div>
+                </div>
+
+                <div class="flex items-center justify-center gap-3 mt-5 text-sm text-gray-500">
+                    <button id="prevPlanterBtn2" class="text-gray-500 w-8 h-8 cursor-pointer">&lt;</button>
+                    <span id="planterCounter2">1 / 1</span>
+                    <button id="nextPlanterBtn2" class="text-gray-500 w-8 h-8 cursor-pointer">&gt;</button>
+                </div>
+            </div>
+
+            <!-- 🪴 3️⃣ Third Slider -->
+            <div class="mt-6 relative" id="Decor-Lighting">
+                <h1 class="text-[30px] font-[700] text-black mb-6">
+                    Lighting and Decor for Garden and Indoor Spaces
+                </h1>
+
+                <div class="relative overflow-hidden group">
+                    <div id="Planters-slider-3" class="flex gap-4 transition-transform duration-500 ease-in-out"></div>
+                </div>
+
+                <div class="flex items-center justify-center gap-3 mt-5 text-sm text-gray-500">
+                    <button id="prevPlanterBtn3" class="text-gray-500 w-8 h-8 cursor-pointer">&lt;</button>
+                    <span id="planterCounter3">1 / 1</span>
+                    <button id="nextPlanterBtn3" class="text-gray-500 w-8 h-8 cursor-pointer">&gt;</button>
+                </div>
+            </div>
+            <!-- 🪴 4️⃣ Fourth Slider -->
+            <div class="mt-6 relative" id="Micro-Nutrients">
+                <h1 class="text-[30px] font-[700] text-black mb-6">
+                    Micro Nutrients for Indoor and Outdoor Plants
+                </h1>
+
+                <div class="relative overflow-hidden group">
+                    <div id="Planters-slider-4" class="flex gap-4 transition-transform duration-500 ease-in-out"></div>
+                </div>
+
+                <div class="flex items-center justify-center gap-3 mt-5 text-sm text-gray-500">
+                    <button id="prevPlanterBtn4" class="text-gray-500 w-8 h-8 cursor-pointer">&lt;</button>
+                    <span id="planterCounter4">1 / 1</span>
+                    <button id="nextPlanterBtn4" class="text-gray-500 w-8 h-8 cursor-pointer">&gt;</button>
+                </div>
+            </div>
+            <!-- 🪴 5️⃣ Fifth Slider -->
+            <div class="mt-6 relative" id="Featured-Products">
+                <h1 class="text-[30px] font-[700] text-black mb-6">
+                    Featured Products
+                </h1>
+
+                <div class="relative overflow-hidden group">
+                    <div id="Planters-slider-5" class="flex gap-4 transition-transform duration-500 ease-in-out"></div>
+                </div>
+
+                <div class="flex items-center justify-center gap-3 mt-5 text-sm text-gray-500">
+                    <button id="prevPlanterBtn5" class="text-gray-500 w-8 h-8 cursor-pointer">&lt;</button>
+                    <span id="planterCounter5">1 / 1</span>
+                    <button id="nextPlanterBtn5" class="text-gray-500 w-8 h-8 cursor-pointer">&gt;</button>
+                </div>
+            </div>
+        </section>
+        <!-- Image Section -->
+        <section class="py-[36px]">
+            <img src="./src/images/shop_detail.png" alt="">
+        </section>
+    </main>
+    <!-- Footer -->
+    <footer class="w-full bg-[#FCFCFC] text-black text-center py-4 px-16 pt-24 pb-16 border-t border-gray-200">
+        <div class="flex flex-col justify-between items-start px-4 space-y-2">
+            <label class="text-gray-600 text-sm">Language</label>
+            <div class="relative text-sm">
+                <!-- Button -->
+                <button id="langBtn1"
+                    class="flex items-center gap-2 px-4 py-2 group transition-all cursor-pointer border border-gray-400 p-2">
+                    <span id="selectedLang1" class="">English</span>
+                    <i class="fa-solid fa-chevron-down text-gray-500 text-xs"></i>
+                </button>
+
+                <!-- Dropdown -->
+                <div id="langDropdown1"
+                    class="absolute left-0 mt-2 w-40 bg-white rounded-lg shadow-lg hidden z-10 border border-gray-200">
+                    <ul class="py-1 text-gray-700">
+                        <li>
+                            <button class="w-full text-left px-4 py-2 hover:bg-gray-100 transition-all cursor-pointer"
+                                onclick="changeLanguage('English')">English</button>
+                        </li>
+                        <li>
+                            <button class="w-full text-left px-4 py-2 hover:bg-gray-100 transition-all cursor-pointer"
+                                onclick="changeLanguage('اردو')">اردو</button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <p class="text-sm mt-14">
+                © 2025, <span class="font-semibold">Bakhabar Kissan</span> —
+                Powered by <span class="underline font-semibold">Shopify</span>
+            </p>
+        </div>
+    </footer>
+
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
